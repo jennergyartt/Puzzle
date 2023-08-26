@@ -44,7 +44,7 @@ function moveTile(row, col) {
         emptyTile = index;
         renderBoard();
         if (checkWin()) {
-            setTimeout(() => alert('Вы победили!'), 100);
+            setTimeout(() => alert('Вы победили!'), 500);
         }
     }
 }
