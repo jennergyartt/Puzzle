@@ -1,5 +1,5 @@
 const board = document.getElementById('puzzle-board');
-const size = 3;
+const size = 6;
 const boardSize = size * size;
 let tiles = [];
 let emptyTile = boardSize - 1;
