@@ -5,6 +5,7 @@ let tiles = [];
 let emptyTile = boardSize - 1;
 
 function createTile(value, row, col) {
+    console.log("createTile",value, row, col)
     const tile = document.createElement('div');
     tile.classList.add('tile');
     tile.textContent = value + 1;
