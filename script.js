@@ -16,6 +16,7 @@ function createTile(value, row, col) {
 }
 
 function shuffleTiles() {
+     console.log("shuffleTiles")
     tiles = Array.from({ length: boardSize }, (_, i) => i);
     for (let i = tiles.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
