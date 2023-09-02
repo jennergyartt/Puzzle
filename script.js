@@ -26,6 +26,7 @@ function shuffleTiles() {
 }
 
 function renderBoard() {
+     console.log("renderBoard")
     board.innerHTML = '';
     for (let row = 0; row < size; row++) {
         for (let col = 0; col < size; col++) {
