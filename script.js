@@ -4,7 +4,7 @@ const boardSize = size * size;
 let tiles = [];
 let emptyTile = boardSize - 1;
 
-function createTile(value, row, col) {
+function createTile(value, row, col) 
     console.log("createTile",value, row, col)
     const tile = document.createElement('div');
     tile.classList.add('tile');
@@ -39,6 +39,7 @@ function renderBoard() {
 }
 
 function moveTile(row, col) {
+    console.log("moveTile", row, col)
     const index = row * size + col;
     const diff = Math.abs(emptyTile - index);
     if (diff === 1 || diff === size) {
