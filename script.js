@@ -54,6 +54,7 @@ function moveTile(row, col) {
 }
 
 function checkWin() {
+    console.log("checkWin")
     for (let i = 0; i < boardSize - 1; i++) {
         if (tiles[i] !== i) {
             return false;
