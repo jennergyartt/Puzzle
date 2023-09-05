@@ -64,6 +64,7 @@ function checkWin() {
 }
 
 function init() {
+    console.log("init")
     shuffleTiles();
     renderBoard();
 }
