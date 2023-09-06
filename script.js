@@ -26,7 +26,7 @@ function shuffleTiles() {
 }
 
 function renderBoard() {
-     console.log("renderBoard")
+    console.log("renderBoard")
     board.innerHTML = '';
     for (let row = 0; row < size; row++) {
         for (let col = 0; col < size; col++) {
@@ -48,7 +48,7 @@ function moveTile(row, col) {
         emptyTile = index;
         renderBoard();
         if (checkWin()) {
-            setTimeout(() => alert('Вы победили!'), 500);
+            setTimeout(() => alert('Вы победили!'), 600);
         }
     }
 }
